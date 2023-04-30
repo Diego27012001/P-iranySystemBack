@@ -18,7 +18,7 @@ import storeRouter from './ContextUser/store/infrastructure/route/store.route';
 import typeRouter from './ContextUser/type_user/infrastructure/route/type_user.route';
 import locationRouter from './ContextStore/locationStore/infrastructure/route/location.route';
 import scheduleRouter from './ContextStore/schedule/infrastructure/route/schedule.route';
-import {sequelize} from './db/connection';
+import sequelize from './db/connection';
 
 
 

@@ -1,5 +1,5 @@
 import { DataTypes, Model } from "sequelize"
-import  {sequelize}  from "../../../../db/connection"
+import  sequelize  from "../../../../db/connection"
 import { Store } from '../../../../ContextUser/store/infrastructure/models/store.model'
 
 export const Schedule = sequelize.define("Schedule",

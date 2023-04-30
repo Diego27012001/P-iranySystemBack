@@ -1,5 +1,5 @@
 import { DataTypes } from "sequelize"
-import  {sequelize}  from "../../../../db/connection"
+import  sequelize  from "../../../../db/connection"
 import { Marked } from "../../../marked/infrastructure/models/marked.model";
 import { Permission } from "../../../permission/infrastructure/models/permission.model";
 

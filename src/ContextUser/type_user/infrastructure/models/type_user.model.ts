@@ -1,5 +1,5 @@
 import { DataTypes, Model } from "sequelize"
-import  {sequelize}  from "../../../../db/connection"
+import  sequelize  from "../../../../db/connection"
 import { Employees } from "../../../employee/infrastructure/models/employee.model"
 
 export const UserType = sequelize.define("UserType",
