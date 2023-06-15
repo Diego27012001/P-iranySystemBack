@@ -31,7 +31,7 @@ route.get(`/marked`,markedCtrl.listMarkedCtrl);
 route.post(`/marked/new`, markedCtrl.insertMarkedCtrl);
 route.get('/marked/:id', async (req, res) => {
     try {
-      const marked = await Marked.findOne({ where: {employeeId: req.params.id } });
+      const marked = await Marked.findAll({ where: {employeeId: req.params.id } });
       res.json(marked);
     } catch (error) {
       console.error(error);
